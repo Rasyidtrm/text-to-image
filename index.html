@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator dari Teks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generator Gambar dari Teks</h1>
+        <form id="imageForm">
+            <label for="textInput">Masukkan teks:</label>
+            <input type="text" id="textInput" required>
+            <button type="submit">Generate Gambar</button>
+        </form>
+        <div id="result">
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
